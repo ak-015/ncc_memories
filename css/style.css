@@ -1,0 +1,10 @@
+.dropdown:hover >.dropdown-menu, .dropend:hover > .dropdown-menu{
+    display: block;
+    margin-top: 0.125em;
+}
+.dropend:hover > .dropdown-menu{
+    position: absolute;
+    top: -0.125em;
+    left: 100%;
+    margin-left: 0.125em;
+}
